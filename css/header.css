@@ -1,0 +1,29 @@
+ /* Estilos para el header */
+ header {
+    background-image: url('https://http2.mlstatic.com/D_NQ_NP_675916-MLA40762447172_022020-O.webp'); /* Ruta de la imagen de fondo */
+    background-size: cover;
+    background-position: center;
+    height: 300px; /* Altura del header */
+    color: black;
+    text-align: left;
+    padding: 20px;
+    position: relative;
+    margin: 2rem 0rem;
+}
+
+/* Estilos para el texto en la parte superior izquierda */
+.header-text {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+}
+
+.header-text h1 {
+    margin: 0;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.header-text p {
+    margin: 5px 0 0;
+}
