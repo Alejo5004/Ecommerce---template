@@ -5,6 +5,7 @@ body{
     font-family: "Oswald", sans-serif;
     font-optical-sizing: auto;
     font-style: normal;
+    color: #1c1c1c;
 }
 
 .font-pixel{
@@ -14,7 +15,7 @@ body{
 }
 
 .container-logo{
-    min-width: 5rem;
+    min-width: 10rem;
     max-width: 15rem;
 }
 
@@ -23,21 +24,20 @@ body{
     height: auto;
 }
 
+nav{
+    background-color: #83DD99;
+}
+
 .menu{
     display: flex;
-    justify-content: space-between;
-    background-color: #83DD99;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
 }
 
 .menu ul {
     list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-}
-
-.menu ul li {
-    float: left;
+    display: flex;
 }
 
 .menu ul li a {
@@ -49,29 +49,24 @@ body{
 }
 
 .menu ul li a:hover {
-    background-color: #111; /* Cambio de color de fondo al pasar el cursor */
-}
-
-/* Estilos para el campo de búsqueda */
-.search-container {
-    float: right;
-}
-
-input[type=search] {
-    padding: 6px;
-    margin-top: 8px;
-    margin-right: 16px;
-    border: none;
-    font-size: 17px;
+    background-color: #5da66f;
 }
 
 @media screen and (max-width: 600px) {
-    .search-container {
-        float: none;
+    .menu {
+        display: block;
+        padding-top: 1rem;
+        background-color: #83DD99;
     }
-    input[type=search] {
-        margin-top: 0;
-        width: 100%;
+
+    .menu ul{
+        padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .menu ul{
+        display: block;
     }
 }
 

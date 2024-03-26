@@ -9,6 +9,11 @@
     background-color: antiquewhite;
     text-align: center;
     border-radius: 10px;
+    transition: transform 0.3s ease;
+}
+
+.card-category:hover{
+    transform: translateY(-5px);
 }
 
 .card-category-image{

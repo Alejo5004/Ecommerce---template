@@ -12,11 +12,6 @@
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    /* transition: transform 0.3s ease; */
-}
-
-.card:hover {
-    /* transform: translateY(-5px); */
 }
 
 .card-img{
@@ -52,7 +47,7 @@
     margin-top: 2rem;
     font-size: 16px;
     font-weight: bold;
-    color: #007bff; /* Color del precio */
+    color: #83DD99;
 }
 
 .card-description{
@@ -60,9 +55,33 @@
 }
 
 .price-offer{
-    color: red;
+    color: #D74271;
 }
 
 .score i{
     color: goldenrod;
+}
+
+.search-container {
+    display: flex;
+    justify-content: end;
+}
+
+input[type=search] {
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 17px;
+}
+
+@media screen and (max-width: 600px) {
+    .search-container {
+        float: none;
+    }
+    input[type=search] {
+        margin-top: 0;
+        width: 100%;
+    }
 }
