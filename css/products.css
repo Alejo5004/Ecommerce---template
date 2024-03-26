@@ -62,6 +62,11 @@
     color: goldenrod;
 }
 
+.btn-buy{
+    width: 100%;
+    cursor: pointer;
+}
+
 .search-container {
     display: flex;
     justify-content: end;

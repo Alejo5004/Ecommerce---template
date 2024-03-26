@@ -1,70 +1,170 @@
 let products = [
     {
-        category: 'Audífonos',
+        category: 'accesory',
         offer: true,
         product: 'HyperX Cloud Flight HX-HSCF',
         images: [
-            'https://http2.mlstatic.com/D_NQ_NP_675916-MLA40762447172_022020-O.webp'
+            './image/products/audifono1.webp'
         ],
-        score: '4.5',
-        price: 100000,
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 399900,
         description: 'N/A',
     },
     {
-        category: 'Audífonos',
+        category: 'accesory',
         offer: true,
-        product: 'HyperX Cloud Flight HX-HSCF',
+        product: 'Logitech G305 Lightspeed, Mouse Gamer Inalámbrico',
         images: [
-            'https://http2.mlstatic.com/D_NQ_NP_946238-MLU72569163450_112023-O.webp'
+            './image/products/mouse1.webp'
         ],
-        score: '4.5',
-        price: 100000,
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 175500,
         description: 'N/A',
     },
     {
-        category: 'Audífonos',
-        offer: true,
-        product: 'HyperX Cloud Flight HX-HSCF',
-        images: [
-            'https://http2.mlstatic.com/D_NQ_NP_705617-MLU73117640700_122023-O.webp'
-        ],
-        score: '4.5',
-        price: 100000,
-        description: 'N/A',
-    },
-    {
-        category: 'Audífonos',
+        category: 'accesory',
         offer: false,
-        product: 'HyperX Cloud Flight HX-HSCF',
+        product: 'Redragon Kumara K552',
         images: [
-            'https://http2.mlstatic.com/D_NQ_NP_675916-MLA40762447172_022020-O.webp'
+            './image/products/teclado1.webp'
         ],
-        score: '4.5',
-        price: 100000,
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 219300,
         description: 'N/A',
     },
     {
-        category: 'Audífonos',
-        offer: false,
-        product: 'HyperX Cloud Flight HX-HSCF',
-        images: [
-            'https://http2.mlstatic.com/D_NQ_NP_675916-MLA40762447172_022020-O.webp'
-        ],
-        score: '4.5',
-        price: 100000,
-        description: 'N/A',
-    },
-    {
-        category: 'Audífonos',
+        category: 'accesory',
         offer: true,
-        product: 'HyperX Cloud Flight HX-HSCF',
+        product: 'LG 32UN550 31.5" Panel VA',
         images: [
-            'https://http2.mlstatic.com/D_NQ_NP_675916-MLA40762447172_022020-O.webp'
+            './image/products/pantalla1.webp'
         ],
-        score: '4.5',
-        price: 100000,
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 2011300,
         description: 'N/A',
     },
+    {
+        category: 'console',
+        offer: false,
+        product: 'Nintendo Switch Oled 64gb Standard',
+        images: [
+            './image/products/switch1.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 1228900,
+        description: 'N/A',
+    },
+    {
+        category: 'console',
+        offer: true,
+        product: 'Xbox Series S 1TB Standard',
+        images: [
+            './image/products/xbox1.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 2284900,
+        description: 'N/A',
+    },
+    {
+        category: 'console',
+        offer: true,
+        product: 'Sony Playstation 5 Slim',
+        images: [
+            './image/products/paly1.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 2284900,
+        description: 'N/A',
+    },
+    {
+        category: 'pc',
+        offer: true,
+        product: 'Epic-x Geforce Rtx 4080 Super 16gb',
+        images: [
+            './image/products/grafica1.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 5199000,
+        description: 'N/A',
+    },
+    {
+        category: 'pc',
+        offer: true,
+        product: 'Gpu Gamer Rx6600 Gddr6 8gb',
+        images: [
+            './image/products/grafica2.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 2199000,
+        description: 'N/A',
+    },
+    {
+        category: 'pc',
+        offer: true,
+        product: 'Tarjeta Gráfica Zotac Gaming Rtx 3080 Ti',
+        images: [
+            './image/products/grafica3.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 2199000,
+        description: 'N/A',
+    },
+    {
+        category: 'pc',
+        offer: true,
+        product: 'Placa Madre Gigabyte H510m-h',
+        images: [
+            './image/products/board1.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 415000,
+        description: 'N/A',
+    },
+    {
+        category: 'pc',
+        offer: true,
+        product: 'Procesador gamer AMD Ryzen 7 5700X',
+        images: [
+            './image/products/procesador1.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 800000,
+        description: 'N/A',
+    },
+    {
+        category: 'pc',
+        offer: true,
+        product: 'Disipador Rgb Intel Y Amd 6',
+        images: [
+            './image/products/disipador.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 120000,
+        description: 'N/A',
+    },
+    {
+        category: 'pc',
+        offer: false,
+        product: 'Chasis Thermaltake View 200 Black Vidrio Templado',
+        images: [
+            './image/products/gabinete1.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 200000,
+        description: 'N/A',
+    },
+    {
+        category: 'pc',
+        offer: true,
+        product: 'Procesador AMD Ryzen 9 7950X',
+        images: [
+            './image/products/procesador2.webp'
+        ],
+        score: Math.floor(Math.random() * (3 - 5) + 5),
+        price: 2500000,
+        description: 'N/A',
+    },
+
 ];
 
 let discont = 50;
@@ -83,13 +183,14 @@ products.forEach(element => {
             <div class="card-content">
                 <h3 class="card-title">${element.product}</h3>
                 <div class="card-description">
-                    <span class="score">
-                        <i class="fa-solid fa-star"></i> ${element.score}
-                    </span>
-                    <br>
-                    <span class="price">${price}</span>
+                    <p>
+                        <span class="score">
+                            <i class="fa-solid fa-star"></i> ${element.score}
+                        </span>
+                        <br>
+                        <span class="price">${price}</span>
+                    </p>
                     <div>
-                        <button class="btn-cart">Añadir al carro</button>
                         <button class="btn-buy">Comprar</button>
                     </div>
                 </div>
