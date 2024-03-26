@@ -91,3 +91,12 @@ footer a{
 footer a:hover{
     color: #F2ECEB;
 }
+
+input[type=text] textarea{
+    padding: 6px;
+    margin-top: 8px;
+    margin-right: 16px;
+    border: none;
+    border-bottom: 1px solid #333;
+    font-size: 17px;
+}
