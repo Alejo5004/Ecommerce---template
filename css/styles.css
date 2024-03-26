@@ -1,4 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&family=Pixelify+Sans:wght@400..700&display=swap');
 
 body{
     font-family: "Oswald", sans-serif;
@@ -6,40 +7,40 @@ body{
     font-style: normal;
 }
 
-footer{
-    background-color: #333;
-    color: white;
-    padding: 3rem;
-    text-align: center;
+.font-pixel{
+    font-family: "Pixelify Sans", sans-serif;
+    font-optical-sizing: auto;
+    font-style: normal;
 }
 
-footer a{
-    color: white;
+.container-logo{
+    min-width: 5rem;
+    max-width: 15rem;
 }
 
-footer a:hover{
-    color: #F2ECEB;
+.logo{
+    width: 100%;
+    height: auto;
 }
 
 .menu{
     display: flex;
     justify-content: space-between;
+    background-color: #83DD99;
 }
 
-/* Estilos para el menú */
-ul {
+.menu ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
-    background-color: #333; /* Color de fondo del menú */
     overflow: hidden;
 }
 
-li {
+.menu ul li {
     float: left;
 }
 
-li a {
+.menu ul li a {
     display: block;
     color: white;
     text-align: center;
@@ -47,7 +48,7 @@ li a {
     text-decoration: none;
 }
 
-li a:hover {
+.menu ul li a:hover {
     background-color: #111; /* Cambio de color de fondo al pasar el cursor */
 }
 
@@ -72,4 +73,25 @@ input[type=search] {
         margin-top: 0;
         width: 100%;
     }
+}
+
+main{
+    max-width: 1140px;
+    margin: auto;
+    padding: 0 1rem;
+}
+
+footer{
+    background-color: #333;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #F2ECEB;
 }

@@ -4,42 +4,60 @@
     <link rel="stylesheet" href="./css/normalize.css">
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/header.css">
-    <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/products.css">
     <link rel="stylesheet" href="./css/categories.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <meta charset="UTF-8">
-    <title>Ecommerce</title>
+    <link rel="shortcut icon" href="./image/favicon.ico" type="image/x-icon">
+    <title>Pixelpad</title>
 </head>
 <body>
-    <nav class="menu">
-        <figure>
-            <img src="" alt="">
+    <nav class="menu font-pixel">
+        <figure class="container-logo">
+            <img class="logo" src="./image/logo.png" alt="">
         </figure>
         <ul>
             <li><a href="./index.html">Inicio</a></li>
-            <li><a href="./pages/products.html">Productos</a></li>
+            <li><a href="#product-category">Productos</a></li>
             <li><a href="./pages/about-us.html">Sobre nosotros</a></li>
             <li><a href="./pages/contact-us.html">Contactenos</a></li>
-            <div class="search-container">
-                <input type="search" placeholder="Buscar..." name="search">
-                <button type="button">Buscar</button>
-            </div>
-        </ul>
-        <ul>
-            <li><a href=""><i class="fa-solid fa-user"></i></a></li>
-            <li><a href=""><i class="fa-solid fa-heart"></i></a></li>
         </ul>
     </nav>
     <header>
-        <div class="header-text">
-            <h1>Texto del Encabezado</h1>
-            <p>Subtítulo o descripción del encabezado</p>
-        </div>
+        <img src="./image/banner.png" alt="">
     </header>
-    <main class="main">
-        <section id="categories"></section>
-        <section id="products"></section>
+    <main>
+        <section id="product-category">
+            <h2>Categorias</h2>
+            <div id="categories">
+                <article class="card-category">
+                    <figure class="card-category-image">
+                        <img src="./image/categories/accesories.png" />
+                    </figure>
+                    <h3>Accesorios</h3>
+                </article>
+                <article class="card-category">
+                    <figure class="card-category-image">
+                        <img src="./image/categories/switch.png" />
+                    </figure>
+                    <h3>Consolas</h3>
+                </article>
+                <article class="card-category">
+                    <figure class="card-category-image">
+                        <img src="./image/categories/componets.png" />
+                    </figure>
+                    <h3>Componentes</h3>
+                </article>
+            </div>
+        </section>
+        <section>
+            <div class="search-container2">
+                <input type="search" placeholder="Buscar..." name="search">
+                <button type="button">Buscar</button>
+            </div>
+            <br>
+            <div id="products"></div>
+        </section>
         <section>
             Sale
         </section>
@@ -47,7 +65,7 @@
             send info
         </section>
     </main>
-    <footer>
+    <footer class="font-pixel">
         Desarrollado por <a href="https://github.com/Alejo5004">@Alejo5004</a> estudiante de la CUN
     </footer>
 

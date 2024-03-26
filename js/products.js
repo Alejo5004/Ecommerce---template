@@ -67,7 +67,7 @@ let products = [
     },
 ];
 
-let discont = 15;
+let discont = 50;
 
 let productElement = document.getElementById('products');
 products.forEach(element => {

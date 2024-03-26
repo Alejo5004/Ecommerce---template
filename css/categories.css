@@ -1,12 +1,22 @@
 #categories{
-    display:flex;
-    justify-content: space-around;
+    display:grid;
+    grid-gap: 1rem;
+    grid-template-columns: repeat(auto-fit, minmax(min(100%, 10rem), 1fr));
+    margin-bottom: 3rem;
 }
 
 .card-category{
     background-color: antiquewhite;
-    min-width: 100px;
-    width: 200px;
     text-align: center;
     border-radius: 10px;
+}
+
+.card-category-image{
+    width: 5rem;
+    margin: auto;
+}
+
+.card-category-image img{
+    width: 100%;
+    height: auto;
 }
