@@ -6,6 +6,21 @@ body{
     font-style: normal;
 }
 
+footer{
+    background-color: #333;
+    color: white;
+    padding: 3rem;
+    text-align: center;
+}
+
+footer a{
+    color: white;
+}
+
+footer a:hover{
+    color: #F2ECEB;
+}
+
 .menu{
     display: flex;
     justify-content: space-between;
